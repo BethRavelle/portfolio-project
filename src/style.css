@@ -1,15 +1,67 @@
+body {
+  background: #affc4d;
+}
+
 h1 {
   font-family: "Philosopher", sans-serif;
   font-weight: 700;
-  font-size: 60px;
-}
-
-h4 {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 500;
+  font-size: 96px;
+  line-height: 130px;
+  text-align: center;
 }
 
 p {
   font-family: "Roboto Mono", monospace;
   font-weight: 500;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 22px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+  border: 5px dashed #affc4d;
+}
+
+#intro {
+  padding: 60px 0;
+}
+
+#profile {
+  padding-right: 60px;
+}
+
+.container {
+  margin: 100px auto 60px;
+  padding: 30px 30px 30px 0;
+  box-shadow: 0.5rem 1rem black;
+  border: 5px solid black;
+  background: white;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 30px;
+  text-decoration: none;
+  background: black;
+  color: #affc4d;
+  font-family: "Roboto Mono", monospace;
+}
+
+footer {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  margin-bottom: 30px;
 }
