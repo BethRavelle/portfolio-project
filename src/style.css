@@ -24,7 +24,7 @@ img {
   width: 300px;
   height: auto;
   border-radius: 50%;
-  border: 5px dashed #affc4d;
+  border: 5px dashed #f500bf;
 }
 
 #intro {
@@ -56,12 +56,14 @@ img {
   padding: 20px 30px;
   text-decoration: none;
   background: black;
-  color: #affc4d;
+  color: white;
   font-family: "Roboto Mono", monospace;
+  box-shadow: 0.3rem 0.3rem #f500bf;
 }
 
 footer {
   font-family: "Roboto Mono", monospace;
   text-align: center;
   margin-bottom: 30px;
+  color: black;
 }
