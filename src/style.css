@@ -6,8 +6,38 @@ h1 {
   font-family: "Philosopher", sans-serif;
   font-weight: 700;
   font-size: 96px;
-  line-height: 130px;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 42px;
+  }
+
+  #intro {
+    padding: 20px 0 !important;
+  }
+
+  #profile {
+    padding: 0;
+  }
+  .project-description {
+    padding: 30px 30px !important;
+    text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 60px;
+    line-height: 72px;
+  }
+  #intro p {
+    font-size: 14px !important;
+  }
+  #profile {
+    padding: 0 !important;
+  }
 }
 
 #intro p {
@@ -19,7 +49,7 @@ h1 {
 }
 
 #profile img {
-  display: block;
+  display: flex;
   margin: auto;
   width: 300px;
   height: auto;
