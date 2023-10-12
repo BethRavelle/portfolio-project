@@ -10,7 +10,7 @@ h1 {
   text-align: center;
 }
 
-p {
+#intro p {
   font-family: "Roboto Mono", monospace;
   font-weight: 500;
   margin: 0 auto;
@@ -18,7 +18,7 @@ p {
   font-size: 22px;
 }
 
-img {
+#profile img {
   display: block;
   margin: auto;
   width: 300px;
@@ -50,7 +50,7 @@ img {
   justify-content: space-evenly;
 }
 
-.navigation-links a {
+.button-classic {
   margin: 20px;
   border-radius: 4px;
   padding: 20px 30px;
@@ -59,6 +59,55 @@ img {
   color: white;
   font-family: "Roboto Mono", monospace;
   box-shadow: 0.3rem 0.3rem #f500bf;
+}
+
+.button-border {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 30px;
+  text-decoration: none;
+  background: white;
+  color: #f500bf;
+  font-weight: 700;
+  border: 3px dashed #f500bf;
+  font-family: "Roboto Mono", monospace;
+}
+
+.button-border:hover {
+  background: #f500bf;
+  color: white;
+  transition: 200ms;
+}
+
+.project-description {
+  padding: 80px 60px;
+}
+
+h2 {
+  font-family: "Philosopher", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+p {
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+#project-image {
+  max-width: 100%;
+  margin: 50px 30px;
+  border: 3px solid black;
+  box-shadow: 0.5rem 1rem black;
+}
+
+#project-image-2 {
+  max-width: 100%;
+  margin: 50px 0;
+  border: 3px solid black;
+  box-shadow: 0.5rem 1rem black;
 }
 
 footer {
