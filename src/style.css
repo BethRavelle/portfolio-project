@@ -1,9 +1,20 @@
-body {
+:root {
+  --primary-color: #affc4d;
+  --secondary-color: #f500bf;
+  --heading-font: "Philosopher", sans-serif;
+  --default-font: "Roboto Mono", monospace;
+}
+
+.main-bg {
   background: #affc4d;
 }
 
+.secondary-bg {
+  background: var(--secondary-color);
+}
+
 h1 {
-  font-family: "Philosopher", sans-serif;
+  font-family: var(--heading-font);
   font-weight: 700;
   font-size: 96px;
   text-align: center;
@@ -41,7 +52,7 @@ h1 {
 }
 
 #intro p {
-  font-family: "Roboto Mono", monospace;
+  font-family: var(--default-font);
   font-weight: 500;
   margin: 0 auto;
   text-align: center;
@@ -54,7 +65,7 @@ h1 {
   width: 300px;
   height: auto;
   border-radius: 50%;
-  border: 5px dashed #f500bf;
+  border: 5px dashed var(--secondary-color);
 }
 
 #intro {
@@ -87,8 +98,8 @@ h1 {
   text-decoration: none;
   background: black;
   color: white;
-  font-family: "Roboto Mono", monospace;
-  box-shadow: 0.3rem 0.3rem #f500bf;
+  font-family: var(--default-font);
+  box-shadow: 0.3rem 0.3rem var(--secondary-color);
 }
 
 .button-border {
@@ -97,14 +108,14 @@ h1 {
   padding: 20px 30px;
   text-decoration: none;
   background: white;
-  color: #f500bf;
+  color: var(--secondary-color);
   font-weight: 700;
-  border: 3px dashed #f500bf;
-  font-family: "Roboto Mono", monospace;
+  border: 3px dashed var(--secondary-color);
+  font-family: var(--default-font);
 }
 
 .button-border:hover {
-  background: #f500bf;
+  background: var(--secondary-color);
   color: white;
   transition: 200ms;
 }
@@ -113,14 +124,18 @@ h1 {
   padding: 80px 60px;
 }
 
+.about-blurb {
+  padding: 0 20px;
+}
+
 h2 {
-  font-family: "Philosopher", sans-serif;
+  font-family: var(--heading-font);
   font-size: 50px;
   font-weight: 600;
 }
 
 p {
-  font-family: "Roboto Mono", monospace;
+  font-family: var(--default-font);
   font-size: 16px;
   line-height: 22px;
   font-weight: 400;
@@ -140,8 +155,25 @@ p {
   box-shadow: 0.5rem 1rem black;
 }
 
+#about-image {
+  display: flex;
+  border-radius: 50%;
+  border: 5px dashed black;
+  width: 250px;
+  height: auto;
+  margin-left: 60px;
+}
+
+.fun-facts {
+  line-height: 24px;
+}
+
+.prompt {
+  color: var(--secondary-color);
+}
+
 footer {
-  font-family: "Roboto Mono", monospace;
+  font-family: var(--default-font);
   text-align: center;
   margin-bottom: 30px;
   color: black;
