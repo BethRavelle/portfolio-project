@@ -6,7 +6,7 @@
 }
 
 .main-bg {
-  background: #affc4d;
+  background: var(--primary-color);
 }
 
 .secondary-bg {
