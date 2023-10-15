@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #affc4d;
+  --primary-color: #00ff19;
   --secondary-color: #f500bf;
   --tertiary-color: #b100f5;
   --heading-font: "Philosopher", sans-serif;
@@ -108,9 +108,20 @@ h1 {
 }
 
 nav {
-  border-bottom: 5px dashed var(--secondary-color);
   font-family: var(--default-font);
   background: black;
+}
+
+.nav-border-pink {
+  border-bottom: 5px dashed var(--secondary-color);
+}
+
+.nav-border-purple {
+  border-bottom: 5px dashed var(--tertiary-color);
+}
+
+.nav-border-green {
+  border-bottom: 5px dashed var(--primary-color);
 }
 
 .nav-logo {
@@ -186,6 +197,40 @@ p {
 
 .prompt {
   color: var(--secondary-color);
+}
+
+.contact-page {
+  margin: 20px 0;
+}
+.contact-info {
+  padding: 120px 10px;
+}
+
+.contact-info p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+
+.contact-info a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#contact-me {
+  padding: 0;
+}
+#contact-me img {
+  display: flex;
+  margin: auto;
+  width: 400px;
+  height: auto;
+  border-radius: 50%;
+  border: 5px dashed black;
 }
 
 footer {
